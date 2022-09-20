@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ * swap_int - swaps variable values
+ *@a: first variable
+ *@b: second varable
+ */
+void swap_int(int *a, int *b)
+{
+	*a += *b;
+	*b = *a - *b;
+	*a = *a - *b;
+}
